@@ -1,4 +1,7 @@
 
+difference(){
+
+
 union(){
     minkowski() {
         cube([50, 35, 2]);
@@ -20,4 +23,17 @@ union(){
         }
     }
 }
+minkowski() {
+    translate([7.5,5,4])
+    cube([35,25,2]);
+    sphere(1);
+}
+
+minkowski() {
+    translate([7.5,5,-4])
+    cube([35,25,2]);
+    sphere(1);
+}
+}
+
 
